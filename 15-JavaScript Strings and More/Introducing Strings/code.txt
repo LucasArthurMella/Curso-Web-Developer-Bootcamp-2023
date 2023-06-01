@@ -1,0 +1,24 @@
+true
+true
+let username = "danny";
+undefined
+username
+'danny'
+let favAnimal = 'Dumbo Octopus';
+undefined
+'23'
+'23'
+23
+23
+'hello!"
+VM1118:1 Uncaught SyntaxError: Invalid or unexpected token
+'sdsadsdsd
+VM1136:1 Uncaught SyntaxError: Invalid or unexpected token
+""
+''
+"322332322332322323"
+'322332322332322323'
+"I told her 'go away' "
+"I told her 'go away' "
+'she said "i hate you"'
+'she said "i hate you"'

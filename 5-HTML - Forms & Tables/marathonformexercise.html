@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/cuuu/">
+        <h1>Race Registration!</h1>
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" required minlength="2" maxlength="20">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required minlength="2" maxlength="20">
+        </div>
+
+        <p>Select a Race:</p>
+
+
+        <div>
+            <input type="radio" name="runtype" id="funrun" value="funrun" required>
+            <label for="funrun">Fun Run 5k</label>
+        </div>
+
+        <div>
+            <input type="radio" name="runtype" id="halfrun" value="halfrun" required>
+            <label for="halfrun">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="runtype" id="fullrun" value="full run" required>
+            <label for="fullrun">Full Marathon</label>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" minlength="8" maxlength="20" required>
+        </div>
+
+        <div>
+            <label for="agegroup">Select Age Group:</label>
+            <select name="agegroup" id="agegroup" required>
+                <option value="under18">Under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+
+        <button>Register!</button>
+    </form>
+
+
+
+
+</body>
+
+</html>

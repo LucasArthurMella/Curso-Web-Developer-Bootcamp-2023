@@ -1,0 +1,33 @@
+document.querySelector("h1");
+<h1>​Silkie Chickens​</h1>​
+const h1 = document.querySelector("h1");
+undefined
+console.dir(h1);
+VM213:1 h1
+undefined
+document.querySelector("p").innerText;
+'The Silkie (sometimes spelled Silky) is a breed of chicken named for its atypically fluffy plumage, which is said to feel like silk and satin. The breed has several other unusual qualities, such as black skin and bones, blue earlobes, and five toes on each foot, whereas most chickens only have four. They are often exhibited in poultry shows, and appear in various colors. In addition to their distinctive physical characteristics, Silkies are well known for their calm, friendly temperament. It is among the most docile of poultry. Hens are also exceptionally broody, and care for young well. Though they are fair layers themselves, laying only about three eggs a week, they are commonly used to hatch eggs from other breeds and bird species due to their broody nature. Silkie chickens are very easy to keep as pets. They are suitable for children, but like any pet, should be handled with care.'
+document.querySelector("p").innerText = "lolololol";
+'lolololol'
+document.querySelector("p").textContent
+
+'The Silkie (sometimes spelled Silky) is a breed of chicken named for\n        its atypically fluffy plumage, which is said to feel like silk and satin. The breed has several other unusual qualities, such as\n        black skin and bones, blue earlobes, and five toes on each foot, whereas most chickens only have four. They are\n        often exhibited in poultry shows, and appear in various colors. In\n        addition to their distinctive physical characteristics, Silkies are well known for their calm, friendly\n        temperament. It is among the most docile of poultry. Hens are also exceptionally broody, and care for young well. Though they are fair layers themselves, laying only\n        about three eggs a week, they are commonly used to hatch eggs from other breeds and bird species due to their\n        broody nature. Silkie chickens are very easy to keep as pets. They are suitable for children, but like any pet,\n        should be handled with care.\n    '
+//text content shows everything (even elements where display is set to none) while innertext only shows the final resulting text
+undefined
+
+document.querySelector("h1").innerText = "<i>ASHUSAUHSAU</i>"
+'<i>ASHUSAUHSAU</i>'
+document.querySelector("h1").innerHTML
+'&lt;i&gt;ASHUSAUHSAU&lt;/i&gt;'
+document.querySelector("p").innerHTML
+'The <b>Silkie</b> (sometimes spelled <b>Silky</b>) is a <a href="/wiki/List_of_chicken_breeds" title="List of chicken breeds">I AM A LINK!!!!</a> of <a href="/wiki/Chicken" title="Chicken">I AM A LINK!!!!</a> named for\n        its atypically fluffy <a href="/wiki/Plumage" title="Plumage">I AM A LINK!!!!</a>, which is said to feel like <a href="/wiki/Silk" title="Silk">I AM A LINK!!!!</a> and satin. The breed has several other unusual qualities, such as\n        black skin and bones, blue earlobes, and five toes on each foot, whereas most chickens only have four. They are\n        often exhibited in <a href="/wiki/Poultry" title="Poultry">I AM A LINK!!!!</a> shows, and appear in various colors. In\n        addition to their distinctive physical characteristics, Silkies are well known for their calm, friendly\n        temperament. It is among the most docile of poultry. Hens are also exceptionally <a href="/wiki/Broodiness" title="Broodiness">I AM A LINK!!!!</a>, and care for young well. Though they are fair layers themselves, laying only\n        about three eggs a week, they are commonly used to hatch eggs from other breeds and bird species due to their\n        broody nature. Silkie chickens are very easy to keep as pets. They are suitable for children, but like any pet,\n        should be handled with care.\n    '
+document.querySelector("h1").innerText = "<i>ASHUSAUHSAU</i>"
+'<i>ASHUSAUHSAU</i>'
+document.querySelector("h1").innerHTML = "<i>ASHUSAUHSAU</i>"
+'<i>ASHUSAUHSAU</i>'
+document.querySelector("h1").innerHTML += "<sup>ashusua</sup>"
+'<i>ASHUSAUHSAU</i><sup>ashusua</sup>'
+document.querySelector("h1").innerHTML = "<b>sauhsauasu</b>"
+'<b>sauhsauasu</b>'
+document.querySelector("h1").innerText = "<b>sauhsauasu</b>"
+'<b>sauhsauasu</b>'

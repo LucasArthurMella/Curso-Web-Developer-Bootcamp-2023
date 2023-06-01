@@ -1,0 +1,43 @@
+460px-Male_Silkie.png:1          Failed to load resource: the server responded with a status of 404 ()
+document.getElementsByTagName("img");
+HTMLCollection(4) [img#banner, img.square, img.square, img.square, banner: img#banner]
+const allImages = document.getElementsByTagName("img");
+undefined
+allImages[0];
+<img id=​"banner" src=​"https:​/​/​images.unsplash.com/​photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt>​
+console.dir(allImages[1]);
+VM323:1 img.squareaccessKey: ""align: ""alt: ""ariaAtomic: nullariaAutoComplete: nullariaBusy: nullariaChecked: nullariaColCount: nullariaColIndex: nullariaColSpan: nullariaCurrent: nullariaDescription: nullariaDisabled: nullariaExpanded: nullariaHasPopup: nullariaHidden: nullariaInvalid: nullariaKeyShortcuts: nullariaLabel: nullariaLevel: nullariaLive: nullariaModal: nullariaMultiLine: nullariaMultiSelectable: nullariaOrientation: nullariaPlaceholder: nullariaPosInSet: nullariaPressed: nullariaReadOnly: nullariaRelevant: nullariaRequired: nullariaRoleDescription: nullariaRowCount: nullariaRowIndex: nullariaRowSpan: nullariaSelected: nullariaSetSize: nullariaSort: nullariaValueMax: nullariaValueMin: nullariaValueNow: nullariaValueText: nullassignedSlot: nullattributeStyleMap: StylePropertyMap {size: 0}attributes: NamedNodeMap {0: class, 1: src, 2: alt, class: class, src: src, alt: alt, length: 3}autocapitalize: ""autofocus: falsebaseURI: "file:///E:/backupnovodopc/Disco%20Local%20C/Programacao/Curso%20Programa%C3%A7%C3%A3o%20Web/24-Introducint%20The%20World%20of%20DOM/Manipulating/index.html"border: ""childElementCount: 0childNodes: NodeList []children: HTMLCollection []classList: DOMTokenList ['square', value: 'square']className: "square"clientHeight: 400clientLeft: 0clientTop: 0clientWidth: 400complete: truecontentEditable: "inherit"crossOrigin: nullcurrentSrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Silky_bantam.jpg/440px-Silky_bantam.jpg"dataset: DOMStringMap {}decoding: "auto"dir: ""draggable: trueelementTiming: ""enterKeyHint: ""fetchPriority: "auto"firstChild: nullfirstElementChild: nullheight: 400hidden: falsehspace: 0id: ""inert: falseinnerHTML: ""innerText: ""inputMode: ""isConnected: trueisContentEditable: falseisMap: falselang: ""lastChild: nulllastElementChild: nullloading: "auto"localName: "img"longDesc: ""lowsrc: ""name: ""namespaceURI: "http://www.w3.org/1999/xhtml"naturalHeight: 330naturalWidth: 440nextElementSibling: img.squarenextSibling: textnodeName: "IMG"nodeType: 1nodeValue: nullnonce: ""offsetHeight: 400offsetLeft: 88offsetParent: bodyoffsetTop: 1232offsetWidth: 400onabort: nullonanimationend: nullonanimationiteration: nullonanimationstart: nullonauxclick: nullonbeforecopy: nullonbeforecut: nullonbeforematch: nullonbeforepaste: nullonbeforexrselect: nullonblur: nulloncancel: nulloncanplay: nulloncanplaythrough: nullonchange: nullonclick: nullonclose: nulloncontextlost: nulloncontextmenu: nulloncontextrestored: nulloncopy: nulloncuechange: nulloncut: nullondblclick: nullondrag: nullondragend: nullondragenter: nullondragleave: nullondragover: nullondragstart: nullondrop: nullondurationchange: nullonemptied: nullonended: nullonerror: nullonfocus: nullonformdata: nullonfullscreenchange: nullonfullscreenerror: nullongotpointercapture: nulloninput: nulloninvalid: nullonkeydown: nullonkeypress: nullonkeyup: nullonload: nullonloadeddata: nullonloadedmetadata: nullonloadstart: nullonlostpointercapture: nullonmousedown: nullonmouseenter: nullonmouseleave: nullonmousemove: nullonmouseout: nullonmouseover: nullonmouseup: nullonmousewheel: nullonpaste: nullonpause: nullonplay: nullonplaying: nullonpointercancel: nullonpointerdown: nullonpointerenter: nullonpointerleave: nullonpointermove: nullonpointerout: nullonpointerover: nullonpointerrawupdate: nullonpointerup: nullonprogress: nullonratechange: nullonreset: nullonresize: nullonscroll: nullonsearch: nullonsecuritypolicyviolation: nullonseeked: nullonseeking: nullonselect: nullonselectionchange: nullonselectstart: nullonslotchange: nullonstalled: nullonsubmit: nullonsuspend: nullontimeupdate: nullontoggle: nullontransitioncancel: nullontransitionend: nullontransitionrun: nullontransitionstart: nullonvolumechange: nullonwaiting: nullonwebkitanimationend: nullonwebkitanimationiteration: nullonwebkitanimationstart: nullonwebkitfullscreenchange: nullonwebkitfullscreenerror: nullonwebkittransitionend: nullonwheel: nullouterHTML: "<img class=\"square\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Silky_bantam.jpg/440px-Silky_bantam.jpg\" alt=\"\">"outerText: ""ownerDocument: documentparentElement: bodyparentNode: bodypart: DOMTokenList [value: '']prefix: nullpreviousElementSibling: ppreviousSibling: textreferrerPolicy: ""role: nullscrollHeight: 400scrollLeft: 0scrollTop: 0scrollWidth: 400shadowRoot: nullsizes: ""slot: ""spellcheck: truesrc: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Silky_bantam.jpg/440px-Silky_bantam.jpg"srcset: ""style: CSSStyleDeclaration {accentColor: '', additiveSymbols: '', alignContent: '', alignItems: '', alignSelf: '', …}tabIndex: -1tagName: "IMG"textContent: ""title: ""translate: trueuseMap: ""virtualKeyboardPolicy: ""vspace: 0width: 400x: 88y: 1232[[Prototype]]: HTMLImageElement
+undefined
+allImages.map();
+VM363:1 Uncaught TypeError: allImages.map is not a function
+    at <anonymous>:1:11
+(anonymous) @ VM363:1
+allImages.map;
+undefined
+allImages.length;
+4
+document.getElementsByTagName("p");
+HTMLCollection(2) [p, p]
+document.getElementsByTagName("div");
+HTMLCollection(2) [div#toc, div.toctitle, toc: div#toc]
+document.getElementsByTagName("b");
+HTMLCollection(3) [b, b, b]
+document.getElementsByTagName("a");
+HTMLCollection(24) [a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a.mw-redirect, a, a, a, a]
+document.getEelementsByClassName("square");
+VM271:1 Uncaught TypeError: document.getEelementsByClassName is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM271:1
+document.getElementsByClassName("square");
+HTMLCollection(3) [img.square, img.square, img.square]
+document.getElementsByClassName("asdsd");
+HTMLCollection []
+document.getElementsById("asdsd");
+VM373:1 Uncaught TypeError: document.getElementsById is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM373:1
+document.getElementById("asdsd");
+null
+document.getElementById("Banner");
+null
+

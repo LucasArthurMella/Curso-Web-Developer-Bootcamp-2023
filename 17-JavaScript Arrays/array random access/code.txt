@@ -1,0 +1,85 @@
+let kitchenSink = [true, undefined, 12, 9.9999, NaN, false, null, "HIIIIII!"];
+undefined
+kitchenSink
+(8) [true, undefined, 12, 9.9999, NaN, false, null, 'HIIIIII!']
+"monday"[0]
+'m'
+days
+(3) ['Monday', 'Tuesday', 'Wednesday']
+days[0]
+'Monday'
+days.length;
+3
+days[2]
+'Wednesday'
+days[3]
+undefined
+days[30]
+undefined
+days[300000]
+undefined
+days[1]
+'Tuesday'
+days[1] [0]
+'T'
+let firstName = "colt";
+undefined
+firstname[0]
+VM1306:1 Uncaught ReferenceError: firstname is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1306:1
+firstNameame[0]
+VM1326:1 Uncaught ReferenceError: firstNameame is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1326:1
+firstName[0]
+'c'
+firstName[0] = "C";
+'C'
+firstName;
+'colt'
+let colors = ["rad", "orange", "yalloww"];
+undefined
+colors[0] = "red";
+'red'
+colors
+(3) ['red', 'orange', 'yalloww']
+colors[2] = "yellow";
+'yellow'
+colors
+(3) ['red', 'orange', 'yellow']
+colors[1] = 70;
+70
+colors
+(3) ['red', 70, 'yellow']
+colors[10] == "indigo";
+false
+colors[10] = "indigo";
+'indigo'
+colors
+(11) ['red', 70, 'yellow', empty × 7, 'indigo']
+colors.length
+11
+colors[5]
+undefined
+colors[6]
+undefined
+colors[7]
+undefined
+colors[8]
+undefined
+colors[9]
+undefined
+colors[10]
+'indigo'
+let beatles = ["paul","jhon", "george"];
+
+undefined
+beatles[3] = "ringo";
+'ringo'
+beatles
+(4) ['paul', 'jhon', 'george', 'ringo']
+beatles[beatles.length] = "jorge";
+'jorge'
+beatles
+(5) ['paul', 'jhon', 'george', 'ringo', 'jorge']

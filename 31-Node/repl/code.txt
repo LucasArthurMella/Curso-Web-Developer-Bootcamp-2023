@@ -1,0 +1,61 @@
+
+Placer@DESKTOP-QE14VAI MINGW64 /e/backupnovodopc/Disco Local C/Programacao/Curso Programação Web/31-Node
+$ node
+Welcome to Node.js v18.15.0.
+Type ".help" for more information.
+> 1 + 2
+3
+> "hello" + "sdsda"
+'hellosdsda'
+> global
+<ref *1> Object [global] {
+  global: [Circular *1],
+  queueMicrotask: [Function: queueMicrotask],
+  clearImmediate: [Function: clearImmediate],
+  setImmediate: [Function: setImmediate] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  structuredClone: [Function: structuredClone],
+  clearInterval: [Function: clearInterval],
+  clearTimeout: [Function: clearTimeout],
+  setInterval: [Function: setInterval],
+  setTimeout: [Function: setTimeout] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  atob: [Function: atob],
+  btoa: [Function: btoa],
+  performance: Performance {
+    nodeTiming: PerformanceNodeTiming {
+      name: 'node',
+      entryType: 'node',
+      startTime: 0,
+      duration: 57370.735499998555,
+      nodeStart: 3.5143999997526407,
+      v8Start: 7.480399999767542,
+      bootstrapComplete: 35.00799999944866,
+      environment: 18.5793999992311,
+      loopStart: 56.94499999843538,
+      loopExit: -1,
+      idleTime: 57216.4412
+    },
+    timeOrigin: 1679712551832.432
+  },
+  fetch: [AsyncFunction: fetch]
+}
+> setTimeout(() => console.log("helllo!!!!!"), 3000);
+Timeout {
+  _idleTimeout: 3000,
+  _idlePrev: [TimersList],
+  _idleNext: [TimersList],
+  _idleStart: 99249,
+  _onTimeout: [Function (anonymous)],
+  _timerArgs: undefined,
+  _repeat: null,
+  _destroyed: false,
+  [Symbol(refed)]: true,
+  [Symbol(kHasPrimitive)]: false,
+  [Symbol(asyncId)]: 524,
+  [Symbol(triggerId)]: 5
+}
+> helllo!!!!!
+>

@@ -1,0 +1,11 @@
+node -i -e "$(< index.js)"
+Movie.find({})
+Movie.find({rating: 'PG-13'}).then(data => console.log(data))
+Movie.find({year: {$gt: 2010}}).then(data => console.log(data))
+Movie.find({year: {$lt: 1999}}).then(data => console.log(data))
+Movie.findOne({}).then(data => console.log(data))
+
+app.get("/movies/:id")
+Movie.find({_id: "6461a059d0d0d36c698781a7"}).then(m => console.log(m));
+Movie.findById("6461a059d0d0d36c698781a7").then(m => console.log(m))
+

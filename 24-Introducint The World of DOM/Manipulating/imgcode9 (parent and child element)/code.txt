@@ -1,0 +1,33 @@
+460px-Male_Silkie.png:1          Failed to load resource: the server responded with a status of 404 ()
+const firstBold = document.querySelector("b");
+undefined
+firstBold.parentElement
+<p>​…​</p>​
+firstBold.parentElement.parentElement
+<body>​…​</body>​
+firstBold.parentElement.parentElement.parentElement
+<html lang=​"en">​<head>​…​</head>​<body>​…​</body>​</html>​
+const paragraph = firstBold.parentElement
+undefined
+paragraph.children
+HTMLCollection(8) [b, b, a, a, a, a, a, a]
+paragraph.children[0]
+<b>​Silkie​</b>​
+paragraph.children[0].parentElement
+<p>​…​</p>​
+const squareImg = document.querySelector(".square");
+undefined
+squareImg.parentElement
+<body>​…​</body>​
+squareImg.children
+HTMLCollection []
+squareImg.nextSibling
+#textassignedSlot: nullbaseURI: "file:///E:/backupnovodopc/Disco%20Local%20C/Programacao/Curso%20Programa%C3%A7%C3%A3o%20Web/24-Introducint%20The%20World%20of%20DOM/Manipulating/index.html"childNodes: NodeList []data: "\n    "firstChild: nullisConnected: truelastChild: nulllength: 5nextElementSibling: img.squarenextSibling: img.squarenodeName: "#text"nodeType: 3nodeValue: "\n    "ownerDocument: documentparentElement: bodyparentNode: bodypreviousElementSibling: img.squarepreviousSibling: img.squaretextContent: "\n    "wholeText: "\n    "[[Prototype]]: Text
+squareImg.nextSibling
+#text
+squareImg.previousSibling
+#text
+squareImg.nextElementSibling
+<img class=​"square" src=​"https:​/​/​upload.wikimedia.org/​wikipedia/​en/​thumb/​e/​e0/​Male_Silkie.png/​460px-Male_Silkie.png" alt>​
+squareImg.previousElementSibling
+<p>​…​</p>​"It is unknown exactly where or when these fowl with their singular combination of attributes first appeared, but the most well documented point of origin is ancient China (hence another occasionally encountered name for the bird, "<b>​Chinese silk chicken​</b>​"). Other places in "<a href=​"/​wiki/​Southeast_Asia" title=​"Southeast Asia" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​Southeast Asia​</a>​" have been named as possibilities, such as India and "<a href=​"/​wiki/​Java" title=​"Java" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​Java​</a>​"."<sup id=​"cite_ref-Ekarius_2-0" class=​"reference">​…​</sup>​" The earliest surviving written account of Silkies comes from "<a href=​"/​wiki/​Marco_Polo" title=​"Marco Polo" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​Marco Polo​</a>​", who wrote of a "furry chicken" in the 13th century during his travels in Asia."<sup id=​"cite_ref-Graham_3-0" class=​"reference">​…​</sup>​" In 1598, "<a href=​"/​wiki/​Ulisse_Aldrovandi" title=​"Ulisse Aldrovandi" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​Ulisse Aldrovandi​</a>​", a writer and "<a href=​"/​wiki/​Naturalist" class=​"mw-redirect" title=​"Naturalist" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​naturalist​</a>​" at the "<a href=​"/​wiki/​University_of_Bologna" title=​"University of Bologna" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​University of Bologna​</a>​", "<a href=​"/​wiki/​Italy" title=​"Italy" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​Italy​</a>​", published a comprehensive "<a href=​"/​wiki/​Treatise" title=​"Treatise" style=​"color:​ rgb(0, 108, 134)​;​ text-decoration-color:​ magenta;​ text-decoration-style:​ wavy;​">​treatise​</a>​" on chickens which is still read and admired today. In it, he spoke on "wool-bearing chickens" and ones "clothed with hair like that of a black cat"."<sup id=​"cite_ref-4" class=​"reference">​…​</sup>​</p>​

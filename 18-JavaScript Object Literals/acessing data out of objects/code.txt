@@ -1,0 +1,71 @@
+const nums = [23,45,99]
+
+undefined
+nums[1];
+45
+person
+{firstName: 'Mick', lastName: 'Jagger'}
+person["lastName"];
+'Jagger'
+kitchenSink{colors: ["red","orange"]}
+VM852:1 Uncaught SyntaxError: Unexpected token '{'
+const kitchenSink = {colors: ["red","orange"]}
+undefined
+kitchenSink["asdsamdsadkmads"];
+undefined
+kitchenSink["colors"];
+(2) ['red', 'orange']
+person
+{firstName: 'Mick', lastName: 'Jagger'}
+person."firstName"
+VM1044:1 Uncaught SyntaxError: Unexpected string
+person.lastName;
+'Jagger'
+"sdas".length
+4
+const years = {1999: "GOOD", 2020: "BAD"}
+undefined
+years
+{1999: 'GOOD', 2020: 'BAD'}
+years["1999"]
+'GOOD'
+years["2020"]
+'BAD'
+years[1999]]
+VM1352:1 Uncaught SyntaxError: Unexpected token ']'
+years[1999]
+'GOOD'
+const dumbdumb = {true: "dat", null: "asdadsadsads"}
+undefined
+dumbdumb
+{true: 'dat', null: 'asdadsadsads'}
+dumbdumb["true"]
+'dat'
+dumbdumb["null"]
+'asdadsadsads'
+person
+{firstName: 'Mick', lastName: 'Jagger'}
+person.firstName
+'Mick'
+person["firstName"];
+'Mick'
+person[firstName];
+VM1732:1 Uncaught ReferenceError: firstName is not defined
+    at <anonymous>:1:8
+(anonymous) @ VM1732:1
+person.firstName;
+'Mick'
+person['first' + 'Name'];
+'Mick'
+years
+{1999: 'GOOD', 2020: 'BAD'}
+years[birthyear];
+VM2041:1 Uncaught ReferenceError: birthyear is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM2041:1
+let birthyear = 2020;
+undefined
+years[birthyear];
+'BAD'
+years.birthYear
+undefined

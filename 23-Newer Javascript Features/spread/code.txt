@@ -1,0 +1,31 @@
+Math.max(13,4,5,6,121,232,2,1,2,33,3333,);
+3333
+Math.min(13,4,5,6,121,232,2,1,2,33,3333,);
+1
+const nums = [13,4,5,6,121,232,2,1,2,33,3333]
+undefined
+nums
+(11) [13, 4, 5, 6, 121, 232, 2, 1, 2, 33, 3333]
+Math.max(nums);
+NaN
+Math.max(...nums);
+3333
+Math.min(...nums);
+1
+console.log("asdas", "as", "asdddas", "asdads");
+VM980:1 asdas as asdddas asdads
+undefined
+console.log(nums);
+VM1040:1 (11) [13, 4, 5, 6, 121, 232, 2, 1, 2, 33, 3333]
+undefined
+console.log(...nums;)
+VM1141:1 Uncaught SyntaxError: missing ) after argument list
+console.log(...nums);
+VM1155:1 13 4 5 6 121 232 2 1 2 33 3333
+undefined
+console.log("hello");
+VM1231:1 hello
+undefined
+console.log(..."hello");
+VM1266:1 h e l l o
+undefined

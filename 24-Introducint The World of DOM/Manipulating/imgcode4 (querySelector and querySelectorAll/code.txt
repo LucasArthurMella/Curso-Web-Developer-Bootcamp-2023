@@ -1,0 +1,20 @@
+document.querySelector("p");
+<p>​…​</p>​
+document.getElementsByTagName("p");
+HTMLCollection(2) [p, p]
+document.querySelector("#banner");
+<img id=​"banner" src=​"https:​/​/​images.unsplash.com/​photo-1563281577-a7be47e20db9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt>​
+document.querySelector(".square");
+<img class=​"square" src=​"https:​/​/​upload.wikimedia.org/​wikipedia/​commons/​thumb/​e/​e2/​Silky_bantam.jpg/​440px-Silky_bantam.jpg" alt>​
+document.querySelector("img:nth-of-type(2)");
+<img class=​"square" src=​"https:​/​/​upload.wikimedia.org/​wikipedia/​commons/​thumb/​e/​e2/​Silky_bantam.jpg/​440px-Silky_bantam.jpg" alt>​
+document.querySelector("a[title='Java']");
+<a href=​"/​wiki/​Java" title=​"Java">​Java​</a>​
+document.querySelectorAll("p");
+NodeList(2) [p, p]
+document.querySelector("p");
+<p>​…​</p>​
+document.querySelectorAll("img");
+NodeList(4) [img#banner, img.square, img.square, img.square]
+document.querySelectorAll("p a");
+NodeList(17) [a, a, a, a, a, a, a, a, a, a, a, a, a.mw-redirect, a, a, a, a]

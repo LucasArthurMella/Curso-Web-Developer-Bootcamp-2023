@@ -1,0 +1,20 @@
+true
+true
+false
+false
+let isActiveGame = true;
+undefined
+isActiveGame
+true
+isActiveGame = false;
+false
+let isLoggedIn = false;
+undefined
+let isGameOver = 1;
+undefined
+isLoggedIn = false;
+false
+isLoggedIn = 371283;
+371283
+isLoggedIn
+371283

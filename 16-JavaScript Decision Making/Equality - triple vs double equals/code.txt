@@ -1,0 +1,36 @@
+1 == 1;
+true
+ 1 == "1";
+true
+null == undefined
+true
+1 == 2
+false
+"a" = "b"
+VM141:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+"a" == "b"
+false
+0 == false
+true
+1 === 1
+true
+1 === "1"
+false
+1 == "1"
+true
+0 === false
+false
+0 == false
+true
+1 != 2
+true
+1 ! = "2"
+VM362:1 Uncaught SyntaxError: Unexpected token '!'
+1 != "2"
+true
+1 != "1"
+false
+1 == "1"
+true
+1 !== "1"
+true

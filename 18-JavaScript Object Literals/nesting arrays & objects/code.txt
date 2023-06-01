@@ -1,0 +1,9 @@
+const comments = [
+        {username: "Tammy", text: "lololololo", votes: 9},
+        {username: "FishBoi", text: "glubglub", votes:12387}
+]
+undefined
+comments[1];
+{username: 'FishBoi', text: 'glubglub', votes: 12387}
+comments[1].text;
+'glubglub'

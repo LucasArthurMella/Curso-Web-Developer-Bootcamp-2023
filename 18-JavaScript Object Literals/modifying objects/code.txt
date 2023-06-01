@@ -1,0 +1,26 @@
+const midterms = {danielle: 96, thomas: 78}
+undefined
+midterms
+{danielle: 96, thomas: 78}
+midterms.thomas = 79
+79
+midterms
+{danielle: 96, thomas: 79}
+midterms.thomas = "C+"
+'C+'
+midterms["danielle"] = "A";
+'A'
+midterms
+{danielle: 'A', thomas: 'C+'}
+midterms.ezra;
+undefined
+midsterms.ezra = "B+";
+VM2630:1 Uncaught ReferenceError: midsterms is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2630:1
+midterms.ezra = "B+";
+'B+'
+midterms["antonio"] = "A-"
+'A-'
+midterms
+{danielle: 'A', thomas: 'C+', ezra: 'B+', antonio: 'A-'}

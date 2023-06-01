@@ -1,0 +1,9 @@
+node -i -e "$(< person.js)"
+const k = new Person({first: "Kristen", last: "Sun"})
+k.save()
+
+
+// depois de alterar o first e last no .pre
+node -i -e "$(< person.js)"
+const colt = new Person({first: "Colt", last: "Steele"})
+colt.save().then(p => console.log(p));

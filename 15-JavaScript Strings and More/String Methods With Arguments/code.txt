@@ -1,0 +1,32 @@
+"sahuasuh".toUpperCase();
+'SAHUASUH'
+"haha that is so funny!".indexOf("h");
+0
+"haha that is so funny!".indexOf("!");
+21
+"haha that is so funny!".indexOf("$");
+-1
+"haha that is so funny!".indexOf(" ");
+4
+"haha that is so funny!".indexOf("is");
+10
+"haha that is so funny".slice(5);
+'that is so funny'
+let msg = "haha that is so funny!";
+undefined
+msg.slice(5);
+'that is so funny!'
+msg.slice(5, 9);
+'that'
+msg.slice(5, 10);
+'that '
+msg.slice(10, 12);
+'is'
+msg.slice(-1);
+'!'
+msg.replace("haha", "lolololololo");
+'lolololololo that is so funny!'
+msg.replaceAll("haha", "lolololololo");
+'lolololololo that is so funny!'
+"lol".repeat(10);
+'lollollollollollollollollollol'

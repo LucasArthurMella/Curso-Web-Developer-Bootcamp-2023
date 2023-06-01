@@ -1,0 +1,74 @@
+let animal
+undefined
+let animal = "Dumbo Octopus";
+undefined
+animal
+'Dumbo Octopus'
+animal[0];
+'D'
+animal[6];
+'O'
+animal[99]
+undefined
+let phone = "(231)345-1344";
+undefined
+phone[9];
+'1'
+phone[0];
+'('
+animal.length();
+VM1610:1 Uncaught TypeError: animal.length is not a function
+    at <anonymous>:1:8
+(anonymous) @ VM1610:1
+animal.length;
+13
+animal[12];
+'s'
+"lol".length;
+3
+"lol"[0];
+'l'
+1 + 2
+3
+"lol" + "lol";
+'lollol'
+let firstName = "River";
+undefined
+let lastName = "Phoenix";
+undefined
+firstName + lastName;
+'RiverPhoenix'
+firstName
+'River'
+lastName
+'Phoenix'
+firstname + " " + "lastName
+VM2067:1 Uncaught SyntaxError: Invalid or unexpected token
+firstname + " " + "lastName"
+VM2073:1 Uncaught ReferenceError: firstname is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2073:1
+firstname + " " + lastName
+VM2085:1 Uncaught ReferenceError: firstname is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM2085:1
+firstName + " " + lastName;
+'River Phoenix'
+let fullName = firstName + " " + lastName
+undefined
+fullName;
+'River Phoenix'
+firstName
+'River'
+lastName
+'Phoenix'
+1 + "hi"
+'1hi'
+let result = 1 + "hi"
+undefined
+typeof result;
+'string'
+typeof 1;
+'number'
+"1" + "hi";
+'1hi'

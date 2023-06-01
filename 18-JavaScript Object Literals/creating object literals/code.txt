@@ -1,0 +1,18 @@
+typeof [];
+'object'
+const person = {firstName: "Mick", lastName: "Jagger"};
+undefined
+person
+{firstName: 'Mick', lastName: 'Jagger'}
+const kichenSink = {
+favNum: 92319023.
+isFunny: true,
+color: ["red", "orange"]
+}
+VM412:3 Uncaught SyntaxError: Unexpected identifier
+const kichenSink = {
+favNum: 92319023,
+isFunny: true,
+color: ["red", "orange"]
+}
+undefined

@@ -1,0 +1,52 @@
+let movieLine = ["tom", "nancy"];
+undefined
+movieLine[2] = "pablo";
+'pablo'
+movieLine
+(3) ['tom', 'nancy', 'pablo']
+movieLine.push("oliver");
+4
+movieLine;
+(4) ['tom', 'nancy', 'pablo', 'oliver']
+let cat = "blue";
+undefined
+cat.toUpperCase;
+ƒ toUpperCase() { [native code] }
+cat.toUpperCase();
+'BLUE'
+cat
+'blue'
+movieLine.push("eva")
+5
+movieLine
+(5) ['tom', 'nancy', 'pablo', 'oliver', 'eva']
+movieLine.push("harry", "hermione");
+7
+movieLine.pop();
+'hermione'
+movieLine;
+(6) ['tom', 'nancy', 'pablo', 'oliver', 'eva', 'harry']
+let person = movieLine.pop();
+undefined
+person
+'harry'
+movieLine();
+VM787:1 Uncaught TypeError: movieLine is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM787:1
+movieLine;
+(5) ['tom', 'nancy', 'pablo', 'oliver', 'eva']
+let barbell= []
+undefined
+barbell.push(45)
+1
+barbell.push(45)
+2
+barbell.push(25)
+3
+barbell.push(10)
+4
+barbell.push(2.5)
+5
+barbell
+(5) [45, 45, 25, 10, 2.5]

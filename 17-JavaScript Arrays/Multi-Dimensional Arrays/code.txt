@@ -1,0 +1,6 @@
+const gameBoard = [["X", "O", "X"],["O",null,"X"],["O","O","X"]];
+undefined
+gameBoard;
+(3) [Array(3), Array(3), Array(3)]0: (3) ['X', 'O', 'X']1: (3) ['O', null, 'X']2: (3) ['O', 'O', 'X']length: 3[[Prototype]]: Array(0)
+gameBoard[1][1];
+null

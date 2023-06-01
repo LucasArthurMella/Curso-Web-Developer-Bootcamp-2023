@@ -1,0 +1,20 @@
+const isChild = makeBetweenFunc(0,18);
+undefined
+isChild(40);
+false
+isChild(7);
+true
+const isAdult = makeBetweenFunc(19,64);
+undefined
+const isSenior = makeBetweenFunc(65,120);
+undefined
+isSenior(70);
+true
+isSenior(40);
+false
+isSenior(90);
+true
+isAdult(0);
+false
+isChild(2);
+true

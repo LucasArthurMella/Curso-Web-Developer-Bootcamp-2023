@@ -1,0 +1,22 @@
+{...feline}
+{legs: 4, family: 'Felidae'}
+feline
+{legs: 4, family: 'Felidae'}
+{...feline, color:"black"}
+{legs: 4, family: 'Felidae', color: 'black'}
+const catDog = {...feline, ...canine}
+undefined
+catDog
+{legs: 4, family: 'Caninae', isFurry: true}
+//in here, both feline and canine have the property family, so the last one overwritens it, so canine's family property was the one that counted
+undefined
+{...canine, ...feline}
+{isFurry: true, family: 'Felidae', legs: 4}
+{...canine, ...feline, family:"Steele"}
+{isFurry: true, family: 'Steele', legs: 4}
+{...[2,4,5,6]}
+{0: 2, 1: 4, 2: 5, 3: 6}
+{..."HIII"}
+{0: 'H', 1: 'I', 2: 'I', 3: 'I'}
+newUser
+{email: 'blueman@gmail.com', password: 'tobias123!', username: 'tfunke', id: 2345, isAdmin: false}

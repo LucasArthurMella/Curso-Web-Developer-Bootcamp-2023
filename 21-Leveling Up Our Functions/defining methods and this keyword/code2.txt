@@ -1,0 +1,31 @@
+cat.meow();
+app.js:18 THIS IS {name: 'Blue Steele', color: 'Grey', breed: 'scottishg fold', meow: ƒ}
+app.js:19 Blue Steele says MEOWWWW
+undefined
+meow2();
+app.js:18 THIS IS Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+app.js:19  says MEOWWWW
+undefined
+function scream() {
+console.log("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+}
+undefined
+window.scream
+ƒ scream() {
+console.log("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+}
+window.scream();
+VM1842:2 AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+undefined
+//every single function is in the window object
+undefined
+meow2();
+app.js:18 THIS IS Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+app.js:19  says MEOWWWW
+undefined
+cat.meow();
+app.js:18 THIS IS {name: 'Blue Steele', color: 'Grey', breed: 'scottishg fold', meow: ƒ}
+app.js:19 Blue Steele says MEOWWWW
+undefined
+this
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}

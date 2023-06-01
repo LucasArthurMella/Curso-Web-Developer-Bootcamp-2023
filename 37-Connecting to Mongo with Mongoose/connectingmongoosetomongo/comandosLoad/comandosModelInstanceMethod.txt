@@ -1,0 +1,3 @@
+node -i -e "$(< products.js)"
+const p = new Product({name: "bike bag", price: 10})
+p.greet();

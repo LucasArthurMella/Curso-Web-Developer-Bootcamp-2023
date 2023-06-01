@@ -1,0 +1,36 @@
+console.log("hello");
+VM656:1 hello
+undefined
+1 + 4;
+5
+console.log (1+4, "hi", true)
+VM808:1 5 'hi' true
+undefined
+console.warn("UH OH WARNING!");
+VM928:1 UH OH WARNING!
+(anonymous) @ VM928:1
+undefined
+console.error("SAUHASUHASUHSA");
+VM1014:1 SAUHASUHASUHSA
+(anonymous) @ VM1014:1
+undefined
+sahusauhasuh
+VM1032:1 Uncaught ReferenceError: sahusauhasuh is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM1032:1
+alert("HI THERE!");
+undefined
+prompt("please enter a number");
+'13'
+let userInput = prompt("please enter a number");
+undefined
+userInput
+'97'
+parseInt(userInput);
+97
+parseInt("101");
+101
+parseInt("101asdsaddassadads");
+101
+parseInt(userInput) + 1
+98

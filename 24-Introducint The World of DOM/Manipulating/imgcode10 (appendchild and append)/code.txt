@@ -1,0 +1,55 @@
+document.createElement("img");
+<img>​
+const newImg = document.createElement("img");
+undefined
+console.dir(newImg)
+VM235:1 img
+undefined
+newImg.src = "https://scontent.fmgf11-1.fna.fbcdn.net/v/t1.15752-9/296053292_1232593197555246_6130548108452239482_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zT3PpJfgbygAX9J0DpM&_nc_ht=scontent.fmgf11-1.fna&oh=03_AVKfPoXvQ1orwLlXZK3rMdMPh-3vAMyj5Jza7xWh3FBmVA&oe=633FC36C"
+'https://scontent.fmgf11-1.fna.fbcdn.net/v/t1.15752-9/296053292_1232593197555246_6130548108452239482_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zT3PpJfgbygAX9J0DpM&_nc_ht=scontent.fmgf11-1.fna&oh=03_AVKfPoXvQ1orwLlXZK3rMdMPh-3vAMyj5Jza7xWh3FBmVA&oe=633FC36C'
+newImg
+<img src=​"https:​/​/​scontent.fmgf11-1.fna.fbcdn.net/​v/​t1.15752-9/​296053292_1232593197555246_6130548108452239482_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zT3PpJfgbygAX9J0DpM&_nc_ht=scontent.fmgf11-1.fna&oh=03_AVKfPoXvQ1orwLlXZK3rMdMPh-3vAMyj5Jza7xWh3FBmVA&oe=633FC36C">​
+document.boy.appendChild(newImg);
+VM413:1 Uncaught TypeError: Cannot read properties of undefined (reading 'appendChild')
+    at <anonymous>:1:14
+(anonymous) @ VM413:1
+document.body.appendChild(newImg);
+<img src=​"https:​/​/​scontent.fmgf11-1.fna.fbcdn.net/​v/​t1.15752-9/​296053292_1232593197555246_6130548108452239482_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=zT3PpJfgbygAX9J0DpM&_nc_ht=scontent.fmgf11-1.fna&oh=03_AVKfPoXvQ1orwLlXZK3rMdMPh-3vAMyj5Jza7xWh3FBmVA&oe=633FC36C">​
+newImg.classList.add("square");
+undefined
+const newH3 = document.createElement("h3")
+undefined
+newH3.innerText = "I am new!";
+'I am new!'
+document.body.appendChild(newH3);
+<h3>​I am new!​</h3>​
+const p = document.querySelector("p");
+undefined
+p.append("I am new text yayyyyyyyyyyyyyyyyyyyyy")
+undefined
+p.append("I am new text yayyyyyyyyyyyyyyyyyyyyy", "asadsasdsadadsasda")
+undefined
+const newB = document.createElement("b");
+undefined
+newB.append("Hi");
+undefined
+newB
+<b>​Hi​</b>​
+p.prepend(newB);
+undefined
+const h2 = document.createElement("h2");
+undefined
+h2.append("Are adorable chickens")
+undefined
+const h1 = document.querySelector("h1");
+undefined
+h1.insertAdjacentElement("afterend", h2);
+<h2>​Are adorable chickens​</h2>​
+h1.nextElementSibling
+<h2>​Are adorable chickens​</h2>​
+const h3 = document.createElement("h3");
+undefined
+h3.innerText = "I am H3";
+'I am H3'
+h1.after(h3);
+undefined

@@ -1,0 +1,26 @@
+
+
+<%- include("partials/head") %>
+    <%- include("partials/navbar") %>
+
+
+      <div class="container">
+
+    <h1>Browsing The <%= name %> subreddit</h1>
+    <h2><%= description %></h2>
+    <p><%= subscribers %> Total Subscribers</p>
+    <hr>
+
+    <% for(let post of posts) { %>
+        <article>
+            <h3><%= post.title %> - <b><%=post.author %></b></h3>
+            <% if(post.img) { %>
+                <img src="<%= post.img %>" alt="">
+            <% } %>
+        </article>
+
+    <% } %>
+</div>
+    <script src="/js/jquery-3.6.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <%- include("partials/footer") %>

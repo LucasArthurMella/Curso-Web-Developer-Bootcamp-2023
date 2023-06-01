@@ -1,0 +1,12 @@
+let 1user = 45;
+VM499:1 Uncaught SyntaxError: Invalid or unexpected token
+let _age = 9;
+undefined
+_age
+9
+let currentYear = 1999;
+undefined
+let n = 9;
+undefined
+let isLoggedIn = true;
+undefined

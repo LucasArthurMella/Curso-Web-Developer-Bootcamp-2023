@@ -1,0 +1,26 @@
+460px-Male_Silkie.png:1          Failed to load resource: the server responded with a status of 404 ()
+const firstLi = document.querySelector("li");
+undefined
+firstLi
+<li class=​"toclevel-1 tocsection-1">​…​</li>​
+const ul = firstLi.parentElement
+undefined
+ul
+<ul>​…​</ul>​
+ul.removeChild(firstLi);
+<li class=​"toclevel-1 tocsection-1">​…​</li>​
+const b = document.querySelector("b")
+undefined
+blur
+ƒ blur() { [native code] }
+b
+<b>​Silkie​</b>​
+b.parentElement.removeChild(b);
+<b>​Silkie​</b>​
+const img = document.querySelector("img");
+undefined
+img.remove();
+undefined
+img.parentElement.removeChild(img)
+VM833:1 Uncaught TypeError: Cannot read properties of null (reading 'removeChild')
+    at <anonymous>:1:19

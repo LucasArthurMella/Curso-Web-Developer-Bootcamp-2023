@@ -1,0 +1,10 @@
+myMath.PI;
+3.14159
+myMath.square
+ƒ (num) {
+        return num * num;
+    }
+myMath.cube(2);
+8
+myMath["cube"](4);
+64

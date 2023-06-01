@@ -1,0 +1,17 @@
+const PI = 3.14159;
+
+undefined
+PI += 1;
+VM94:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:4
+(anonymous) @ VM94:1
+const nums = [1,2,3];
+undefined
+nums.push(4);
+4
+nums = 1;
+VM213:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:6
+(anonymous) @ VM213:1
+nums [1,2,3,4];
+undefined

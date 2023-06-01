@@ -1,0 +1,22 @@
+ls: mostra os arquivos do diretorio que vc esta
+~: volta pro diretorio raiz/home
+pwd: mostra em qual diretorio vc esta
+
+-cd: faz vc navegar ate um certo diretorio, para navegar ate um diretorio com espacos tem q usar aspas, digitar .. faz vc ir pra um diretorio atras
+
+-Caminho relativo vs absoluto: Caminho relativo funciona apesas do diretório em que voce está, enquanto absoluto funciona de qualquer lugar, exemplos:
+
+se vc esta num diretorio dentro do disco local D, e dentro deste diretorio a há pasta "Casa" o caminho relativo seria vc digitar "cd Casa" para acessa-lo, pois dentro do contexto da pasta que voce esta ele existe relativamente, porém se vc sair deste local, Casa não estará mais lá e ele n funcionara apenas digitando "cd Casa". Já o caminho absoluto ele funciona de qualquer lugar, pois ele sempre parte do diretório raíz, exemplo "cd /d/DiretórioExemplo/Casa", um diretório absoluto sempre começa com "/" pra indicar que ele esta partindo da raiz.
+
+mkdir: cria um diretório com o nome q vc colocar, exemplo "mkdir DiretorioNovo", vc pode tbm fazer varias ao mesmo tempo, como "mkdir exemplo1 exemplo2 exemplo3", vc tambem pode fazer em diretorios diferentes como "mkdir ../Frogs", e também pode criar um diretório e ja fazer outro dentro dele como "mkdir teste teste/teste2"
+
+man (ou --help): mostra o que um comando faz:
+exemplo: --help ls
+
+flags: algo q vc poe dps de um comando pra fazer algo adicional, por exemplo ls -l retorna a lista de arquivos e listas com informaçoes a mais
+
+touch: cria um arquivo
+
+rm: remove um arquivo
+
+rmdir: remove um diretório, por padrão ele nao deixa vc remover um diretorio que possui arquivos ou pastas, pra fazer isto é necessário usar as flags -rf, se vc usar essas flags no comando rm ele vai se comportar da mesma maneira e remover o diretório

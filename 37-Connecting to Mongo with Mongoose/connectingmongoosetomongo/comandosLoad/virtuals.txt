@@ -1,0 +1,8 @@
+node -i -e "$(< person.js)"
+const tammy = new Person({first: "Tammy", last: "Chow"});
+//getter virtual
+tammy.fullName
+tammy.save();
+//setter virtual
+tammy.fullName = "Jhon Tron";
+tammy.save();

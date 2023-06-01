@@ -1,0 +1,36 @@
+fakeRequestPromise("sahsauas");
+Promise {<pending>}[[Prototype]]: Promisecatch: ƒ catch()constructor: ƒ Promise()finally: ƒ finally()then: ƒ then()Symbol(Symbol.toStringTag): "Promise"[[Prototype]]: Object[[PromiseState]]: "fulfilled"[[PromiseResult]]: "Here is your fake data from sahsauas"
+const res = fakeRequestPromise("hikingtrails.com/api/nearme");
+undefined
+res
+Promise {<fulfilled>: 'Here is your fake data from hikingtrails.com/api/nearme'}
+let response = fakeRequestPromise("hikingtrails.com/api/nearme");
+undefined
+response
+Promise {<pending>}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: "Here is your fake data from hikingtrails.com/api/nearme"
+response
+Promise {<fulfilled>: 'Here is your fake data from hikingtrails.com/api/nearme'}[[Prototype]]: Promise[[PromiseState]]: "fulfilled"[[PromiseResult]]: "Here is your fake data from hikingtrails.com/api/nearme"
+let response = fakeRequestPromise("hikingtrails.com/api/nearme");
+undefined
+response
+Promise {<pending>}
+response
+Promise {<fulfilled>: 'Here is your fake data from hikingtrails.com/api/nearme'}
+let response = fakeRequestPromise("hikingtrails.com/api/nearme");
+undefined
+response
+Promise {<pending>}
+response
+Promise {<pending>}
+response
+Promise {<pending>}
+response
+Promise {<pending>}
+app.js:18 Uncaught (in promise) Connection Timeout :(
+(anonymous) @ app.js:18
+setTimeout (async)
+(anonymous) @ app.js:16
+fakeRequestPromise @ app.js:14
+(anonymous) @ VM336:1
+response
+Promise {<rejected>: 'Connection Timeout :('}

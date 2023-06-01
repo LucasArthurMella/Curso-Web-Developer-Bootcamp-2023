@@ -1,0 +1,34 @@
+"hello".length
+5
+let msg = "leave me alone right now i hate you plz"
+undefined
+msg.toUpperCase;
+ƒ toUpperCase() { [native code] }
+msg.toUpperCase();
+'LEAVE ME ALONE RIGHT NOW I HATE YOU PLZ'
+msg = msg.toUpperCase();
+'LEAVE ME ALONE RIGHT NOW I HATE YOU PLZ'
+msg
+'LEAVE ME ALONE RIGHT NOW I HATE YOU PLZ'
+let angryMsg = msg.toUpperCase();
+undefined
+angryMsg
+'LEAVE ME ALONE RIGHT NOW I HATE YOU PLZ'
+"lolololololo".toLowerCase();
+'lolololololo'
+let userInput = "       hello my name is tim tom tammy ping pong"
+undefined
+userInput.trim();
+'hello my name is tim tom tammy ping pong'
+userInput
+'       hello my name is tim tom tammy ping pong'
+"    addaadasdads      ".trim();
+'addaadasdads'
+"__________asdssadasasdads".trim();
+'__________asdssadasasdads'
+let greeting = "   hello again!!!!!             ";
+undefined
+greeting
+'   hello again!!!!!             '
+greeting.trim().toUpperCase();
+'HELLO AGAIN!!!!!'

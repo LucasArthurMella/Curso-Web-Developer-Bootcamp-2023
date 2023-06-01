@@ -1,0 +1,42 @@
+let cats = ["blue", "kitty"]
+undefined
+let dogs = ["rusty","wyatt"]
+undefined
+cats.concat(dogs);
+(4) ['blue', 'kitty', 'rusty', 'wyatt']
+let comboParty = dogs.concat(cats);
+undefined
+comboParty
+(4) ['rusty', 'wyatt', 'blue', 'kitty']
+cats.includes("blue");
+true
+cats.includes("Blue");
+false
+"Blue".indexOf("B");
+0
+"Blue".indexOf("E");
+-1
+"Blue".indexOf("e");
+3
+"Blue".indexOf("0");
+-1
+comboParty
+(4) ['rusty', 'wyatt', 'blue', 'kitty']
+comboParty.indexOf("rusty");
+0
+comboParty.indexOf("kitty");
+3
+comboParty.indexOf("ASIDUAS");
+-1
+comboParty.reverse;
+ƒ reverse() { [native code] }
+comboParty.reverse();
+(4) ['kitty', 'blue', 'wyatt', 'rusty']
+comboParty
+(4) ['kitty', 'blue', 'wyatt', 'rusty']
+comboParty.push("blue");
+5
+comboParty
+(5) ['kitty', 'blue', 'wyatt', 'rusty', 'blue']
+comboParty.indexOf("blue");
+1

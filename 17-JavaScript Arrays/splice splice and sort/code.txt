@@ -1,0 +1,48 @@
+let colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+undefined
+colors.slice(3);
+(4) ['green', 'blue', 'indigo', 'violet']
+colors.slice(3);
+(4) ['green', 'blue', 'indigo', 'violet']
+colors
+(7) ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colors.slice(0,3);
+(3) ['red', 'orange', 'yellow']
+let warmColors = colors.slice(0,3);
+undefined
+warmColors;
+(3) ['red', 'orange', 'yellow']
+colors
+(7) ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+colors.slice(-3);
+(3) ['blue', 'indigo', 'violet']
+colors.splice(5,1);
+['indigo']
+colors
+(6) ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+let days = ["Monday", "Tuesday", "Wednesday"];
+undefined
+days.splice(1,2);
+(2) ['Tuesday', 'Wednesday']
+days
+['Monday']
+colors
+(6) ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+colors.splice(1,0 "red-orange");
+VM1178:1 Uncaught SyntaxError: missing ) after argument list
+colors.splice(1,0, "red-orange");
+[]
+colors
+(7) ['red', 'red-orange', 'orange', 'yellow', 'green', 'blue', 'violet']
+colors.splice(3,0,"yellow-green", "forestgreen");
+[]
+colors
+(9) ['red', 'red-orange', 'orange', 'yellow-green', 'forestgreen', 'yellow', 'green', 'blue', 'violet']
+colors.splice(2,2,"DELETED!!");
+(2) ['orange', 'yellow-green']
+colors
+(8) ['red', 'red-orange', 'DELETED!!', 'forestgreen', 'yellow', 'green', 'blue', 'violet']
+let scores = [1,70,100,2500, 9, -12, 0,34];
+undefined
+scores.sort();
+(8) [-12, 0, 1, 100, 2500, 34, 70, 9]

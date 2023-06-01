@@ -1,0 +1,20 @@
+null
+null
+true
+true
+false
+false
+null
+null
+undefined
+undefined
+"hello" [99]
+undefined
+let x;
+undefined
+x
+undefined
+let loggedInUser = null;
+undefined
+loggedinUser = "Alan Rickman";
+'Alan Rickman'

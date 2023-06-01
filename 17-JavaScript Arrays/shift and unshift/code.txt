@@ -1,0 +1,40 @@
+let movieLine = ["tom", "nancy", "pablo", "oliver", "eva"];
+undefined
+movieLine
+(5) ['tom', 'nancy', 'pablo', 'oliver', 'eva']
+movieLine.shift();
+'tom'
+movieLine
+(4) ['nancy', 'pablo', 'oliver', 'eva']
+let nextPatron = movieLine.shift();
+undefined
+nextPatron
+'nancy'
+movieLine
+(3) ['pablo', 'oliver', 'eva']
+movieLine.push("colt");
+4
+movieLine
+(4) ['pablo', 'oliver', 'eva', 'colt']
+movieLine.shift();
+'pablo'
+movieLine.shift();
+'oliver'
+movieLine.shift();
+'eva'
+movieLine.shift();
+'colt'
+movieLine.shift();
+undefined
+movieLine.push("jerry", "deniz", "kevin", "carly");
+4
+movieLine.unshift("VIP");
+5
+movieLine
+(5) ['VIP', 'jerry', 'deniz', 'kevin', 'carly']
+movieLine.unshift();
+5
+movieLine
+(5) ['VIP', 'jerry', 'deniz', 'kevin', 'carly']
+movieLine.shift();
+'VIP'

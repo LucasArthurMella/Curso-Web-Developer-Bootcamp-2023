@@ -1,0 +1,26 @@
+true
+true
+"sahuasuh"
+'sahuasuh'
+const bassist = "Paul";
+undefined
+bassist[0]
+'P'
+let colors = [];
+undefined
+colors
+[]length: 0[[Prototype]]: Array(0)
+typeof colors
+'object'
+let days = ["Monday", "Tuesday", "Wednesday"];
+undefined
+days
+(3) ['Monday', 'Tuesday', 'Wednesday']0: "Monday"1: "Tuesday"2: "Wednesday"length: 3[[Prototype]]: Array(0)
+days.length
+3
+[].length
+0
+let kitchenSink = [true, undefined, 12, 9.9999, NaN, false, null, "HIIIIII!"];
+undefined
+kitchenSink
+(8) [true, undefined, 12, 9.9999, NaN, false, null, 'HIIIIII!']

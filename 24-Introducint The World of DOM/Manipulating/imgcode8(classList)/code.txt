@@ -1,0 +1,42 @@
+const h2 = document.querySelector("h2");
+undefined
+h2.getAttribute("class");
+null
+h2.setAttribute("class", "purple");
+undefined
+h2.setAttribute("class", "border");
+undefined
+let currentClasses = h2.getAttribute("class");
+undefined
+currentClasses
+'border'
+h2.setAttribute("class", `${currentClasses} purple`);
+undefined
+//currentclasses is used in order to keep the current class, and any another one after it instead of replacing it
+undefined
+h2.classList
+DOMTokenList(2) ['border', 'purple', value: 'border purple']
+h2.setAttribute("class", ``);
+undefined
+h2.classList
+DOMTokenList [value: '']
+h2.classList.add("purple")
+undefined
+h2.classList.add("border")
+undefined
+h2.classList.remove("border");
+undefined
+h2.classList.contains("border");
+false
+h2.classList.contains("purple");
+true
+h2.classList.toggle("purple");
+false
+h2.classList.toggle("purple");
+true
+h2.classList.toggle("purple");
+false
+h2.classList.toggle("purple");
+true
+h2.getAttribute("class")
+'purple'

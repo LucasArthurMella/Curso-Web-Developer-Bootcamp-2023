@@ -1,0 +1,16 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-image: url(https://media.discordapp.net/attachments/986812317431898182/986943451658592256/firefox_Knjj3qd508.png?width=471&height=473);
+    background-size: cover;
+    background-position: top; */
+    margin: 0 auto;
+    background: center/cover no-repeat url(https://media.discordapp.net/attachments/986812317431898182/986943451658592256/firefox_Knjj3qd508.png?width=471&height=473);
+    background: center/40% no-repeat url(https://media.discordapp.net/attachments/986812317431898182/986943451658592256/firefox_Knjj3qd508.png?width=471&height=473), blueviolet;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}

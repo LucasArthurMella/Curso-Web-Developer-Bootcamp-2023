@@ -1,0 +1,4 @@
+node -i -e "$(< index.js)"
+Movie.deleteOne({title: "Amelie"}).then(msg => console.log(msg))
+Movie.deleteMany({year: {$gte: 1999}}).then(msg => console.log(msg))
+Movie.findOneAndDelete({title: "Alien"}).then(msg => console.log(msg))
