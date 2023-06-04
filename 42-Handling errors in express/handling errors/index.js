@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 
-
+const AppError = require("./AppError");
 
 app.use(morgan("dev"));
 app.use((req,res, next) => {
@@ -34,7 +34,9 @@ const verifyPassword = (req,res,next) => {
     if(password === "chickennugget"){
         return next();
     }
-    res.send("SORRY YOU NEED A PASSWORD!!!");
+    // res.send("SORRY YOU NEED A PASSWORD!!!");
+    throw new AppError("password required", 401);
+    // res.status(401);
     // throw new Error("Password required!");
 };
 
@@ -82,17 +84,27 @@ app.get("/secret", verifyPassword, (req,res) => {
     res.send("MY SECRET IS: Sometimes i hold myself not to...");
 })
 
+app.get("/admin", (req,res) => {
+    throw new AppError("You're not an Admin!", 403);
+});
+
+
+// //with this args syntax, everytime a error is thrown this executes
+// app.use((err, req, res, next) => {
+//     console.log("********************");
+//     console.log("*******ERROR********");
+//     console.log("********************");
+//     // res.status(500).send("OH BOY WE GOT AN ERROR!");
+//     //if next is called with an argument inside ofi t, express know its a error
+//     //and it will act as the express default error handler, and print the argument
+//     //which in this case is the error, on the screen
+//     next(err);
+// })
 
 //with this args syntax, everytime a error is thrown this executes
 app.use((err, req, res, next) => {
-    console.log("********************");
-    console.log("*******ERROR********");
-    console.log("********************");
-    // res.status(500).send("OH BOY WE GOT AN ERROR!");
-    //if next is called with an argument inside ofi t, express know its a error
-    //and it will act as the express default error handler, and print the argument
-    //which in this case is the error, on the screen
-    next(err);
+    const { status = 500, message = "Something Went Wrong"} = err;
+    res.status(status).send(message);
 })
 
 
